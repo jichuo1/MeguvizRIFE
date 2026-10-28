@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "artifacts": [
+    {
+      "abi": "arm64-v8a",
+      "path": "D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\android-arm64-api27\\lib\\libmeguviz_rife.a",
+      "size_bytes": 2400012,
+      "sha256": "ff12f75f8dbda81f72fc375aa31032d112cbb4133e488b54f2333147acb49a97",
+      "private_sdk_fingerprint": "a604931188ed2bcc19165aaa8cfeb8af32e23a522e0e9caa8387923f310fa38c",
+      "scope": "cross-compile/static SDK only; no ARM/GPU execution"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\android-v7-api27\\lib\\libmeguviz_rife.a",
+      "size_bytes": 1700850,
+      "sha256": "735e25411c8ac7254c507874da8d180172e6c41d0a25ab731334fac4a238be24",
+      "private_sdk_fingerprint": "2c82ca7b808aa2bb27748a452a57c78c3bfb9700042b7104ad2a58e8aaba9e8c",
+      "scope": "cross-compile/static SDK only; no ARM/GPU execution"
+    }
+  ]
+}

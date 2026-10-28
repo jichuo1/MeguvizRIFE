@@ -1,0 +1,103 @@
+[
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizRIFE",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_MAKE_PROGRAM=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:49.754568+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:49.954994+00:00"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:49.955996+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:56.281724+00:00"
+  },
+  {
+    "name": "ctest",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--test-dir",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference",
+      "--output-on-failure"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:56.281724+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:57.771334+00:00"
+  },
+  {
+    "name": "install",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\windows-reference"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:57.771838+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:58.307173+00:00"
+  },
+  {
+    "name": "configure_external",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizRIFE\\examples\\external_consumer",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\external-consumer",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_MAKE_PROGRAM=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\windows-reference;D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:58.308178+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:58.417178+00:00"
+  },
+  {
+    "name": "build_external",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\external-consumer"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:58.418681+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:58:59.169368+00:00"
+  },
+  {
+    "name": "run_external",
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\external-consumer\\rife_external.exe"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:58:59.169368+00:00",
+    "exit_code": 0,
+    "ended_utc": "2026-10-28T07:59:00.294896+00:00"
+  }
+]

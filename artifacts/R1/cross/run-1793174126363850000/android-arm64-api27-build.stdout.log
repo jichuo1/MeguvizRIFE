@@ -1,0 +1,18 @@
+[1/11] Generating generated/warp.comp.hex.h
+[2/11] Generating generated/warp_pack4.comp.hex.h
+[3/11] Generating generated/frame_preproc.comp.hex.h
+[4/11] Generating generated/frame_postproc.comp.hex.h
+[5/11] Generating generated/frame_fused.comp.hex.h
+[6/11] Generating generated/frame_fused_rgb8.comp.hex.h
+[7/11] Generating generated/frame_reduce.comp.hex.h
+[8/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/backends/ncnn/legacy/upstream/rife_warp.cpp.o
+[9/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/core/rife.cpp.o
+FAILED: CMakeFiles/meguviz_rife.dir/src/core/rife.cpp.o 
+C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\30.0.16248370\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android27 --sysroot=C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -ID:/MeguvizPack/MeguvizRIFE/include -ID:/MeguvizPack/MeguvizRIFE/src -ID:/MeguvizPack/MeguvizRIFE/build/android-arm64-api27/generated -isystem D:/MeguvizPack/MeguvizCompute/build/install/android-arm64-api27/include/meguviz-private -isystem D:/MeguvizPack/MeguvizCompute/build/install/android-arm64-api27/include -isystem D:/MeguvizPack/MeguvizCompute/build/install/android-arm64-api27/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pthread -fno-rtti -fno-exceptions -fexceptions -MD -MT CMakeFiles/meguviz_rife.dir/src/core/rife.cpp.o -MF CMakeFiles\meguviz_rife.dir\src\core\rife.cpp.o.d -o CMakeFiles/meguviz_rife.dir/src/core/rife.cpp.o -c D:/MeguvizPack/MeguvizRIFE/src/core/rife.cpp
+In file included from D:/MeguvizPack/MeguvizRIFE/src/core/rife.cpp:4:
+D:/MeguvizPack/MeguvizRIFE/src/private/data.hpp:57:291: error: non-const lvalue reference to type 'reference' (aka 'std::filesystem::path') cannot bind to a temporary of type 'reference' (aka 'std::filesystem::path')
+   57 | inline std::filesystem::path within(const std::filesystem::path&root,const std::string&rel){std::filesystem::path p=std::filesystem::u8path(rel);require(!rel.empty()&&!p.is_absolute()&&rel.find(':')==std::string::npos&&rel.find('\\')==std::string::npos,4,"path_relative_required");for(auto&part:p)require(part!=".."&&part!=".",4,"path_traversal");auto base=std::filesystem::weakly_canonical(root);auto target=std::filesystem::weakly_canonical(base/p);auto bi=base.begin(),ti=target.begin();for(;bi!=base.end();++bi,++ti)require(ti!=target.end()&&*bi==*ti,4,"path_escape");return target;}
+      |                                                                                                                                                                                                                                                                                                   ^   ~
+1 error generated.
+[10/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/backends/ncnn/legacy/frame_engine.cpp.o
+ninja: build stopped: subcommand failed.

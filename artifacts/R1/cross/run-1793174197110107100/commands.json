@@ -1,0 +1,112 @@
+[
+  {
+    "name": "android-arm64-api27-configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizRIFE",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-arm64-api27",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\ninja.exe",
+      "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "-DANDROID_ABI=arm64-v8a",
+      "-DANDROID_PLATFORM=android-27",
+      "-DANDROID_STL=c++_static",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27",
+      "-DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=BOTH",
+      "-DMGR_BUILD_CLI=OFF",
+      "-DMGR_BUILD_TESTS=OFF",
+      "-DMGR_REQUIRED_PRIVATE_SDK_FINGERPRINT=a604931188ed2bcc19165aaa8cfeb8af32e23a522e0e9caa8387923f310fa38c"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:37.110107+00:00",
+    "ended_utc": "2026-10-28T07:56:37.319709+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "android-arm64-api27-build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-arm64-api27",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:37.319709+00:00",
+    "ended_utc": "2026-10-28T07:56:39.248594+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "android-arm64-api27-install",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-arm64-api27",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\android-arm64-api27"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:39.248594+00:00",
+    "ended_utc": "2026-10-28T07:56:39.314453+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "android-v7-api27-configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizRIFE",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-v7-api27",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\ninja.exe",
+      "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "-DANDROID_ABI=armeabi-v7a",
+      "-DANDROID_PLATFORM=android-27",
+      "-DANDROID_STL=c++_static",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-v7-api27",
+      "-DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=BOTH",
+      "-DMGR_BUILD_CLI=OFF",
+      "-DMGR_BUILD_TESTS=OFF",
+      "-DMGR_REQUIRED_PRIVATE_SDK_FINGERPRINT=2c82ca7b808aa2bb27748a452a57c78c3bfb9700042b7104ad2a58e8aaba9e8c"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:39.317457+00:00",
+    "ended_utc": "2026-10-28T07:56:42.555738+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "android-v7-api27-build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-v7-api27",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:42.556267+00:00",
+    "ended_utc": "2026-10-28T07:56:44.953219+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "android-v7-api27-install",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\android-v7-api27",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\install\\android-v7-api27"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T07:56:44.953740+00:00",
+    "ended_utc": "2026-10-28T07:56:45.036330+00:00",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "scope": "DEVELOPMENT_SDK_NOT_R5_OR_BIL_QUALIFICATION",
+  "version": {
+    "build_fingerprint": "ec38b00be4755c6001d3b05dfd830f0204c30bcacc7375c7d3aadc0d3aca90a0",
+    "private_sdk_fingerprint": "c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa",
+    "scope": "CPU reference implementation",
+    "version": "0.1.0-dev"
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/R1/reference/run-1793175200598738600/summary.json",
+      "size_bytes": 3137,
+      "sha256": "b90a17d7a9699e8a524ecc27577e212e9f4e7fc71ae74fe88ba3c146b48aa7e2"
+    },
+    {
+      "path": "artifacts/R1/cross/run-1793174340833927700/summary.json",
+      "size_bytes": 922,
+      "sha256": "712d2c2cd9c6414aa8e2f5c86b4c3ceb90b624890f9c716bef1ca065bc2d82d6"
+    },
+    {
+      "path": "artifacts/R1/build/run-1793174329753568700/binaries.json",
+      "size_bytes": 538,
+      "sha256": "9d615a698d342d51ab3020230875777ac4f505f4c4e22ba1ea427fd05811bad5"
+    },
+    {
+      "path": "build/host-reference/mgr-cli.exe",
+      "size_bytes": 3338752,
+      "sha256": "f51b6d3a1747e7b3c1e38153bf69573fbe51b2595fb2019709c87e2041f0a969"
+    },
+    {
+      "path": "build/install/windows-reference/lib/meguviz_rife.lib",
+      "size_bytes": 2311800,
+      "sha256": "2fcdcef97eeca2406a5b78bf2a34a37f0924301c7bb844d8eb7f2255b9a32a00"
+    },
+    {
+      "path": "build/install/windows-reference/share/MeguvizRIFE/build-info.json",
+      "size_bytes": 404,
+      "sha256": "c29508fd2496fead74a8e2af22a8d50649a59092e0fdafbbbc2c4dbb5707724a"
+    },
+    {
+      "path": "build/install/android-arm64-api27/lib/libmeguviz_rife.a",
+      "size_bytes": 2400012,
+      "sha256": "ff12f75f8dbda81f72fc375aa31032d112cbb4133e488b54f2333147acb49a97"
+    },
+    {
+      "path": "build/install/android-arm64-api27/share/MeguvizRIFE/build-info.json",
+      "size_bytes": 407,
+      "sha256": "f81afa1f45ffd5d78ae194482319f63176d41235ea81c0c8e243277dd0991533"
+    },
+    {
+      "path": "build/install/android-v7-api27/lib/libmeguviz_rife.a",
+      "size_bytes": 1700850,
+      "sha256": "735e25411c8ac7254c507874da8d180172e6c41d0a25ab731334fac4a238be24"
+    },
+    {
+      "path": "build/install/android-v7-api27/share/MeguvizRIFE/build-info.json",
+      "size_bytes": 409,
+      "sha256": "cb8f1ee0e2d09d5d294d607f82b676c00cda61d6f9de73fc4d7de27f9c4af261"
+    }
+  ]
+}

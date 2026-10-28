@@ -1,0 +1,5 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+find_dependency(MeguvizCompute 0.1 CONFIG)
+include("${CMAKE_CURRENT_LIST_DIR}/MeguvizRIFETargets.cmake")
+check_required_components(MeguvizRIFE)

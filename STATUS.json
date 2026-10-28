@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "project": "MeguvizRIFE",
+  "target_gate": "R5",
+  "overall_profile": "bil-rife-ncnn-android",
+  "state": "BLOCKED",
+  "result": "INCONCLUSIVE",
+  "implemented_profile": "CPU_FP32_REFERENCE_REAL_MODEL",
+  "public_abi": "0.1",
+  "version": {
+    "build_fingerprint": "ec38b00be4755c6001d3b05dfd830f0204c30bcacc7375c7d3aadc0d3aca90a0",
+    "private_sdk_fingerprint": "c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa",
+    "scope": "CPU reference implementation",
+    "version": "0.1.0-dev"
+  },
+  "tasks": [
+    {
+      "id": "R0",
+      "state": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed_subtasks": [
+        "model hash/size/source identity",
+        "frozen old CPU oracle",
+        "CPU A/A and geometry inputs"
+      ],
+      "evidence": [
+        "artifacts\\R1\\reference\\run-1793175200598738600\\summary.json"
+      ],
+      "blocked_by": [
+        "same-profile old Vulkan A/A has no ARM GPU device"
+      ]
+    },
+    {
+      "id": "R1",
+      "state": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed_subtasks": [
+        "real v4.6 CPU C API/CLI",
+        "bounded authenticated model loader",
+        "owned output lifetime",
+        "CMake static SDK and external C consumer",
+        "ARM64/ARMv7 cross build"
+      ],
+      "evidence": [
+        "artifacts\\R1\\reference\\run-1793175200598738600\\summary.json",
+        "artifacts\\R1\\cross\\run-1793174340833927700\\summary.json",
+        "artifacts\\R1\\build\\run-1793174329753568700\\binaries.json"
+      ],
+      "blocked_by": [
+        "synchronous Vulkan adaptation and legacy FP16 guard profile not publicly enabled/qualified",
+        "C1 GPU qualification incomplete"
+      ]
+    },
+    {
+      "id": "R2",
+      "state": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "blocked_by": [
+        "C2 AHB/barrier provider not implemented/qualified",
+        "GPU image output and complete GPU guard migration not implemented"
+      ]
+    },
+    {
+      "id": "R3",
+      "state": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "blocked_by": [
+        "R2/C4 prerequisites incomplete",
+        "no same-quality GPU A/B evidence; no optimization enabled"
+      ]
+    },
+    {
+      "id": "R4",
+      "state": "PLANNED",
+      "result": "UNSUPPORTED",
+      "optional": true,
+      "reason": "no new model/precision/backend experiment enabled"
+    },
+    {
+      "id": "R5",
+      "state": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "blocked_by": [
+        "R3/C5 incomplete; development packages are not a qualified release candidate"
+      ]
+    }
+  ],
+  "artifact_manifest": "ARTIFACTS.json",
+  "rollback": "leave bil legacy path unchanged; unsupported plan configurations fail closed",
+  "gpu_performance_claim": null
+}

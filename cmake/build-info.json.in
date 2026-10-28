@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0-dev",
+  "build_fingerprint": "@MGR_BUILD_FP@",
+  "private_sdk_fingerprint": "@MGR_PRIVATE_FP@",
+  "target_system": "@CMAKE_SYSTEM_NAME@",
+  "abi": "@ANDROID_ABI@",
+  "compiler": "@CMAKE_CXX_COMPILER_ID@-@CMAKE_CXX_COMPILER_VERSION@",
+  "profile": "CPU_FP32_REFERENCE",
+  "gpu_qualification": "INCONCLUSIVE"
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\case-0.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\report-0.json"
+    ],
+    "name": "32x32-a0-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:20.647160+00:00",
+    "ended_utc": "2026-10-28T08:13:22.462969+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\right.rgb",
+      "32",
+      "32",
+      "0",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\oracle-0.rgb",
+      "1"
+    ],
+    "name": "32x32-a0-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:22.465605+00:00",
+    "ended_utc": "2026-10-28T08:13:23.403615+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\case-0.5.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\report-0.5.json"
+    ],
+    "name": "32x32-a0.5-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:23.405737+00:00",
+    "ended_utc": "2026-10-28T08:13:25.054183+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\right.rgb",
+      "32",
+      "32",
+      "0.5",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\oracle-0.5.rgb",
+      "1"
+    ],
+    "name": "32x32-a0.5-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:26.492987+00:00",
+    "ended_utc": "2026-10-28T08:13:27.300034+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\case-0.5.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\report-0.5.json"
+    ],
+    "name": "32x32-a0.5-repeat",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:27.300034+00:00",
+    "ended_utc": "2026-10-28T08:13:31.204033+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\case-1.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\report-1.json"
+    ],
+    "name": "32x32-a1-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:31.205359+00:00",
+    "ended_utc": "2026-10-28T08:13:32.699887+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\right.rgb",
+      "32",
+      "32",
+      "1",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\32x32\\oracle-1.rgb",
+      "1"
+    ],
+    "name": "32x32-a1-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:32.700932+00:00",
+    "ended_utc": "2026-10-28T08:13:33.192903+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\case-0.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\report-0.json"
+    ],
+    "name": "65x35-a0-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:33.197645+00:00",
+    "ended_utc": "2026-10-28T08:13:35.564727+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\right.rgb",
+      "65",
+      "35",
+      "0",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\oracle-0.rgb",
+      "1"
+    ],
+    "name": "65x35-a0-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:35.565732+00:00",
+    "ended_utc": "2026-10-28T08:13:36.987021+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\case-0.5.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\report-0.5.json"
+    ],
+    "name": "65x35-a0.5-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:36.989539+00:00",
+    "ended_utc": "2026-10-28T08:13:37.387238+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\right.rgb",
+      "65",
+      "35",
+      "0.5",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\oracle-0.5.rgb",
+      "1"
+    ],
+    "name": "65x35-a0.5-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:37.388743+00:00",
+    "ended_utc": "2026-10-28T08:13:39.044509+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\case-0.5.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\report-0.5.json"
+    ],
+    "name": "65x35-a0.5-repeat",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:39.045577+00:00",
+    "ended_utc": "2026-10-28T08:13:40.170795+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\case-1.json",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\report-1.json"
+    ],
+    "name": "65x35-a1-candidate",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:40.172896+00:00",
+    "ended_utc": "2026-10-28T08:13:41.388279+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-legacy-oracle.exe",
+      "D:\\Bilibili_Innocent_Lab\\runtime\\player-frame-interpolation-20261018\\dependency-research\\rife\\models\\rife-v4.6",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\left.rgb",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\right.rgb",
+      "65",
+      "35",
+      "1",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\65x35\\oracle-1.rgb",
+      "1"
+    ],
+    "name": "65x35-a1-oracle",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:41.390283+00:00",
+    "ended_utc": "2026-10-28T08:13:41.662239+00:00",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\alpha_nan.json"
+    ],
+    "name": "alpha_nan",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:41.664179+00:00",
+    "ended_utc": "2026-10-28T08:13:42.485914+00:00",
+    "exit_code": 4
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\alpha_range.json"
+    ],
+    "name": "alpha_range",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:42.486911+00:00",
+    "ended_utc": "2026-10-28T08:13:43.085597+00:00",
+    "exit_code": 4
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\missing_model.json"
+    ],
+    "name": "missing_model",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:43.087575+00:00",
+    "ended_utc": "2026-10-28T08:13:43.681704+00:00",
+    "exit_code": 9
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizRIFE\\build\\host-reference\\mgr-cli.exe",
+      "interpolate",
+      "--run-spec",
+      "D:\\MeguvizPack\\MeguvizRIFE\\artifacts\\R1\\reference\\run-1793175200598738600\\unsupported_precision.json"
+    ],
+    "name": "unsupported_precision",
+    "cwd": "D:\\MeguvizPack\\MeguvizRIFE",
+    "started_utc": "2026-10-28T08:13:43.683162+00:00",
+    "ended_utc": "2026-10-28T08:13:43.813738+00:00",
+    "exit_code": 3
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "source_commit": "74d78e19095baa006b1315001190241952f1b84a",
+  "source_repo": "https://github.com/jichuo1/Bilibili_Innocent_Lab",
+  "license": "GPL-3.0; upstream Warp MIT notice retained",
+  "initial_transformation": "namespace only; later changes recorded in diff",
+  "files": [
+    {
+      "path": "frame_engine.h",
+      "source_sha256": "ac4cd282b002d79c37370fdf7700a3f74af0ce12acdc1c39a9130bac026b8805",
+      "extracted_sha256": "bde52f60a7b1ef68e916510560277c84947460ddb17392e981a4ebfbd4551bf1"
+    },
+    {
+      "path": "frame_engine.cpp",
+      "source_sha256": "9dec916999e80d132999540ca726e505d8dd0ecf5d28e53cb77cd01179c91421",
+      "extracted_sha256": "ddc74598602baa47292c20fbc7068bce70e55ecf67ccd6eedc51502ec48b0c67"
+    },
+    {
+      "path": "embed_shader.cmake",
+      "source_sha256": "832b5033721bdf3c4d46dbd27c5cd301f8816f6b5ad1d0e652c89cc52d523718",
+      "extracted_sha256": "a7331f8a64e65ee0992b2e17fe8e6b4bd252f08f1621a3993dbcc893e5ed9167"
+    },
+    {
+      "path": "NOTICE.md",
+      "source_sha256": "45660a8b480950e92c27e4e0e5c50ef9bc3e0790eddab72c50ce8c3727b80417",
+      "extracted_sha256": "b7e3be08556967a3459463d80273f114b4c6f7938eba7731228b6087df2c6053"
+    },
+    {
+      "path": "frame_preproc.comp",
+      "source_sha256": "46f65a4ad811359c8ecebebbcc00f15a0d3e72640753665ecd15c8e3e972e4af",
+      "extracted_sha256": "10de482b37e7389661eacfe8eeb49cd0ef43db22820ce10087497d3fd6b3684d"
+    },
+    {
+      "path": "frame_postproc.comp",
+      "source_sha256": "6a753f6a7f3d489fce97f0d442223b66db770feda0a76c090d717bd7ce3ce2f7",
+      "extracted_sha256": "a4ffa23415ebab66f7b5a7f39b0a48acac70b7eae5f3f1b24f44df70b29248c0"
+    },
+    {
+      "path": "frame_fused.comp",
+      "source_sha256": "d100bf99d75427cd64ecb24974d48c6fa1b298cce71dfa2821e6e1a1219c78fe",
+      "extracted_sha256": "b6ae54c9bc4948e0048bf38433f2a42b814a626212f99c8839024740d8af9646"
+    },
+    {
+      "path": "frame_fused_rgb8.comp",
+      "source_sha256": "039cea806b949fde0c6e86f2a26968155eecf96b2cd6e3f510b576f476ff64db",
+      "extracted_sha256": "b0eb7089f85f4f702336bd9089b4c499123c441bd21e8cf8590c866af5a09d8d"
+    },
+    {
+      "path": "frame_reduce.comp",
+      "source_sha256": "d7f32d4a5082f7be7e9d2bb73e889f0f6678fc280f0c70a8a06ba11631c3c1f0",
+      "extracted_sha256": "676a4c0b1e780a6e17c6e94d9559f9ab192faddbb90eb60bef1f6b139557705f"
+    },
+    {
+      "path": "upstream/rife_warp.cpp",
+      "source_sha256": "e595b641096b7047ce4b055e47a2e4d913a2b1b8e176d96da7731efa355af044",
+      "extracted_sha256": "2f2aeb89efeae8e7e2af0acb9f50bb106051e6921a47c36995909aa46a9c73e4"
+    },
+    {
+      "path": "upstream/rife_warp.h",
+      "source_sha256": "5d28e4d5179d1f809739fff759c33a7ad0b82de75f752f80f1242c2606b0d47a",
+      "extracted_sha256": "605baf6863f2f1607c64f57cb1a6a2bd0f70d81ae02e4beda14a9e4a797e4b8f"
+    },
+    {
+      "path": "upstream/warp.comp",
+      "source_sha256": "de80d57f49ccb7f7553d6344402db0507e74862f3d04507bcb5a72fe6259a338",
+      "extracted_sha256": "4abc5e9930fc8417b1bddafe7869b8856cc766d01a22caf03dc333f01d839427"
+    },
+    {
+      "path": "upstream/warp_pack4.comp",
+      "source_sha256": "eeca5ea4fb25926025f8271bf9f965dc679522629ea79be4fae2b47d7028055e",
+      "extracted_sha256": "10256b7968ef7d6c5819ce631bf205b20a27c234d1f6a654aa218a9179130c41"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source_sha256": "de18cbedb0c3b0d1eeb9ccac3988cdf69c21fa89039cd97dd8846cb68f661f81",
+      "extracted_sha256": "b2a6c9fb803317f8faab98d964b62b1ba9397deea8f0b583fbda3c970273e5a3"
+    }
+  ]
+}

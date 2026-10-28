@@ -1,0 +1,17 @@
+[
+  {
+    "path": "build\\host-reference\\mgr-cli.exe",
+    "size_bytes": 3338752,
+    "sha256": "f51b6d3a1747e7b3c1e38153bf69573fbe51b2595fb2019709c87e2041f0a969"
+  },
+  {
+    "path": "build\\host-reference\\mgr-legacy-oracle.exe",
+    "size_bytes": 3217920,
+    "sha256": "268fe30d255730d958c97e8bdd09eada94ef92b2bed4d8932f9b6f01193a9078"
+  },
+  {
+    "path": "build\\host-reference\\mgr_c_consumer.exe",
+    "size_bytes": 3215360,
+    "sha256": "b60e009628f6fde85093f413d8cb165120fb9b171c5c235c80b2f4ddb3323463"
+  }
+]

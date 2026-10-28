@@ -1,0 +1,26 @@
+{
+  "source": "bil 74d78e19095baa006b1315001190241952f1b84a",
+  "scope": "unchanged old CPU engine for separate-process equivalence; no new implementation calls",
+  "files": [
+    {
+      "path": "frame_engine.cpp",
+      "sha256": "9dec916999e80d132999540ca726e505d8dd0ecf5d28e53cb77cd01179c91421"
+    },
+    {
+      "path": "frame_engine.h",
+      "sha256": "ac4cd282b002d79c37370fdf7700a3f74af0ce12acdc1c39a9130bac026b8805"
+    },
+    {
+      "path": "upstream/rife_warp.cpp",
+      "sha256": "e595b641096b7047ce4b055e47a2e4d913a2b1b8e176d96da7731efa355af044"
+    },
+    {
+      "path": "upstream/rife_warp.h",
+      "sha256": "5d28e4d5179d1f809739fff759c33a7ad0b82de75f752f80f1242c2606b0d47a"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "sha256": "de18cbedb0c3b0d1eeb9ccac3988cdf69c21fa89039cd97dd8846cb68f661f81"
+    }
+  ]
+}

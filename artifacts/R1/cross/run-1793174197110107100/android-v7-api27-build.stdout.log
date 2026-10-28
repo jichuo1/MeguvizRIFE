@@ -1,0 +1,11 @@
+[1/11] Generating generated/warp.comp.hex.h
+[2/11] Generating generated/warp_pack4.comp.hex.h
+[3/11] Generating generated/frame_preproc.comp.hex.h
+[4/11] Generating generated/frame_postproc.comp.hex.h
+[5/11] Generating generated/frame_fused.comp.hex.h
+[6/11] Generating generated/frame_fused_rgb8.comp.hex.h
+[7/11] Generating generated/frame_reduce.comp.hex.h
+[8/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/backends/ncnn/legacy/upstream/rife_warp.cpp.o
+[9/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/core/rife.cpp.o
+[10/11] Building CXX object CMakeFiles/meguviz_rife.dir/src/backends/ncnn/legacy/frame_engine.cpp.o
+[11/11] Linking CXX static library libmeguviz_rife.a

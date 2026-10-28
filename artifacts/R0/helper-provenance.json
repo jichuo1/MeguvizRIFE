@@ -1,0 +1,6 @@
+{
+  "source": "MeguvizShaderTools/cli/data.hpp",
+  "source_sha256": "cb9e549a4e76efc6f90ff02b91977b59bdbfcbfbb1a3779f29f224df59e67ea5",
+  "transformation": "private namespace only; source copy with independent runtime, no ShaderTools link",
+  "copied_sha256": "b28c0ffead30df5672cd355c0232d5bc968f5268dec25170acc5ca50eec6e4e5"
+}

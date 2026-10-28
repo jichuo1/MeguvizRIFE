@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 66,
+      "sha256": "ff872bdbf4bb1582bb9e511599d00c0d4924562b1a164fcb9bfd5581002787be"
+    },
+    {
+      "path": "cmake/build-info.json.in",
+      "size_bytes": 354,
+      "sha256": "85128f5e1ddda0bccf4a909b749e5aad3d4412d196356ee7288be22317dae158"
+    },
+    {
+      "path": "cmake/build_identity.hpp.in",
+      "size_bytes": 108,
+      "sha256": "e19d9c5dfec207dcd030ef4954ea476278c94b52d78878c66b0e058123f58e85"
+    },
+    {
+      "path": "cmake/MeguvizRIFEConfig.cmake.in",
+      "size_bytes": 193,
+      "sha256": "59ebb0f19f5576b1ffc7f9b3232c11c7595074a82e61006a530ae5d6b79ffa33"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "size_bytes": 6342,
+      "sha256": "283a4b4bc902b9f0e5aaabb1d93e0855be3b71a59c2fc435486ea98e635e1feb"
+    },
+    {
+      "path": "CMakePresets.json",
+      "size_bytes": 965,
+      "sha256": "44195443ae88701ac69aef522e8a92167f2fa3eacd94005a9683276120b3b17a"
+    },
+    {
+      "path": "docs/adr/0001-reference-and-domain.md",
+      "size_bytes": 1497,
+      "sha256": "8a0d0cbcbff5779d7447274973aac2fe2b8691433681126078516996836ef869"
+    },
+    {
+      "path": "examples/external_consumer/CMakeLists.txt",
+      "size_bytes": 369,
+      "sha256": "b8a4a34e499f3d7e92e38f369b0efec2337c1b6e021590c1bd8db4e0e9f47cd2"
+    },
+    {
+      "path": "examples/external_consumer/main.c",
+      "size_bytes": 354,
+      "sha256": "ab4c747cced3983106c50f55e0cc02040acea0553e233f0f2db253a1a1d28d28"
+    },
+    {
+      "path": "include/meguviz/rife.h",
+      "size_bytes": 3785,
+      "sha256": "0fbbc0e4ddb8d846f500c0c499ff07da4459d94a657530747feaff39bb1819d9"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "path": "models/catalog/rife46.manifest.json",
+      "size_bytes": 696,
+      "sha256": "c23d275e169831f6a12cac912eafdb4e75ede5b6acb164bd079a93c447daa4cc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3141,
+      "sha256": "d5187d0aa4701d59fdb84c476085452684c29ed83c6b4e70d55728a018827593"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/embed_shader.cmake",
+      "size_bytes": 750,
+      "sha256": "78d17322b172e80223cad6cd13fe2ac51405344d8d2bb91a04c91ed82ddc4997"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_engine.cpp",
+      "size_bytes": 48543,
+      "sha256": "2e2ae904b393d93f7ab8ab49f5abb03bcc6bd71bbbad28fe14745c1430ffcfb3"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_engine.h",
+      "size_bytes": 4430,
+      "sha256": "64806fb1e490a0fdac347596aa04171a4d16c444d304361938871495a5cb207d"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_fused.comp",
+      "size_bytes": 8770,
+      "sha256": "97f5a540506845be304e4a18d4ed001e49b012b280adc0c5c726b6575760afa9"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_fused_rgb8.comp",
+      "size_bytes": 9055,
+      "sha256": "77a1dcab29bd96ff1b2b26b7de6ffc023c98b76e7392f87be5db634cb0e3af44"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_postproc.comp",
+      "size_bytes": 3898,
+      "sha256": "1f99ffe2385bf5d1eaf639679c9c223e78f5c8ad2b79b0d672cf0d79884b05dd"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_preproc.comp",
+      "size_bytes": 1131,
+      "sha256": "be419d0410fa4b932490b03357bbf7d3f5a518c11cab18724339179c68d074eb"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/frame_reduce.comp",
+      "size_bytes": 1737,
+      "sha256": "9d02c4148c4be1a708286e20bc9f28c578d52442e03b501c90ec29c02f4f04c3"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/NOTICE.md",
+      "size_bytes": 2985,
+      "sha256": "1debbaa73b39fe048cb28c2ef81bef0aa07f417dc76024d3a407450d98290baf"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/upstream/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "a73beab18143600af0b10c6050a953ec233775ce31c2bf3373a794db535329fd"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/upstream/rife_warp.cpp",
+      "size_bytes": 4846,
+      "sha256": "986b1d20009d90b24d6fc1ade38c0f1a8ba983da5d1c69c9cbf7739b99628eaa"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/upstream/rife_warp.h",
+      "size_bytes": 846,
+      "sha256": "c89ab3daca3d4ab69e02a60aec4caafc698da280b8e84b72e9a8b61f45a84135"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/upstream/warp.comp",
+      "size_bytes": 1924,
+      "sha256": "febf4ce8e214300f92a6d9ab60f1ad8cf7b9adb4d5b62cfc6d0653d527976e08"
+    },
+    {
+      "path": "src/backends/ncnn/legacy/upstream/warp_pack4.comp",
+      "size_bytes": 1960,
+      "sha256": "37f8c40d29d9989df4cff37cb441ef0a42edb783529833acdb0d30c3c7fb7874"
+    },
+    {
+      "path": "src/cli/main.cpp",
+      "size_bytes": 11179,
+      "sha256": "27fc01a7b3c56d32db023a663566c5f6ad30a3b7eb2a2e74a37de10a01daf6ab"
+    },
+    {
+      "path": "src/core/rife.cpp",
+      "size_bytes": 18617,
+      "sha256": "edcd0b3fde9de47229ae43adb0aef5052d1aec2460f45fa846c3fa6ecd60705d"
+    },
+    {
+      "path": "src/private/catalog.hpp",
+      "size_bytes": 1138,
+      "sha256": "9498fd4f1b1924d49c1aeeb44e2a97a44ba6c3152cbe8e7b7504b46dfe487b81"
+    },
+    {
+      "path": "src/private/data.hpp",
+      "size_bytes": 10275,
+      "sha256": "3d1358a26a1aaa3127008715314afbc752466ad384798baa5250f8befd8edc65"
+    },
+    {
+      "path": "tests/c_consumer.c",
+      "size_bytes": 974,
+      "sha256": "8c722ca415a70103f74759fcc8395912de082efb59648595c3a8d1bf03dff228"
+    },
+    {
+      "path": "tests/oracle/frame_engine.cpp",
+      "size_bytes": 49585,
+      "sha256": "9dec916999e80d132999540ca726e505d8dd0ecf5d28e53cb77cd01179c91421"
+    },
+    {
+      "path": "tests/oracle/frame_engine.h",
+      "size_bytes": 4372,
+      "sha256": "ac4cd282b002d79c37370fdf7700a3f74af0ce12acdc1c39a9130bac026b8805"
+    },
+    {
+      "path": "tests/oracle/main.cpp",
+      "size_bytes": 2498,
+      "sha256": "713f747b54ec4db196888eed478e71a9ee3e10b21e8de8bedd169c193fc9d9cb"
+    },
+    {
+      "path": "tests/oracle/source-lock.json",
+      "size_bytes": 865,
+      "sha256": "543e362eb088bc16c07008cbdb51aa240d238e620984b189c031eddae5f8ef33"
+    },
+    {
+      "path": "tests/oracle/upstream/LICENSE",
+      "size_bytes": 1093,
+      "sha256": "de18cbedb0c3b0d1eeb9ccac3988cdf69c21fa89039cd97dd8846cb68f661f81"
+    },
+    {
+      "path": "tests/oracle/upstream/rife_warp.cpp",
+      "size_bytes": 4955,
+      "sha256": "e595b641096b7047ce4b055e47a2e4d913a2b1b8e176d96da7731efa355af044"
+    },
+    {
+      "path": "tests/oracle/upstream/rife_warp.h",
+      "size_bytes": 873,
+      "sha256": "5d28e4d5179d1f809739fff759c33a7ad0b82de75f752f80f1242c2606b0d47a"
+    },
+    {
+      "path": "tests/run_reference.py",
+      "size_bytes": 5818,
+      "sha256": "4db893c3aa8a532f128d92b5cb03b0d419bb727f2a1d1ae9bb281ccf7a9322ea"
+    },
+    {
+      "path": ".gitattributes",
+      "size_bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    }
+  ]
+}

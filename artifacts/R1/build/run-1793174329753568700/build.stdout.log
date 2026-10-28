@@ -1,0 +1,7 @@
+[0/2] Re-checking globbed directories...
+[1/6] Building CXX object CMakeFiles\meguviz_rife.dir\src\core\rife.cpp.obj
+D:\MeguvizPack\MeguvizRIFE\src\private/data.hpp(53): warning C4310: 类型强制转换截断常量值
+[2/6] Building CXX object CMakeFiles\mgr-cli.dir\src\cli\main.cpp.obj
+[3/6] Linking CXX static library meguviz_rife.lib
+[4/6] Linking CXX executable mgr-cli.exe
+[5/6] Linking CXX executable mgr_c_consumer.exe

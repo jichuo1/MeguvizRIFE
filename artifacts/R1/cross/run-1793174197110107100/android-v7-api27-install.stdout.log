@@ -1,0 +1,13 @@
+-- Install configuration: "Release"
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/lib/libmeguviz_rife.a
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/include
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/include/meguviz
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/include/meguviz/rife.h
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/share/MeguvizRIFE/rife46.manifest.json
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/share/MeguvizRIFE/LICENSE
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/share/MeguvizRIFE/notices/NOTICE.md
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/share/MeguvizRIFE/notices/LICENSE
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/lib/cmake/MeguvizRIFE/MeguvizRIFETargets.cmake
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/lib/cmake/MeguvizRIFE/MeguvizRIFETargets-release.cmake
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/lib/cmake/MeguvizRIFE/MeguvizRIFEConfig.cmake
+-- Installing: D:\MeguvizPack\MeguvizRIFE\build\install\android-v7-api27/lib/cmake/MeguvizRIFE/MeguvizRIFEConfigVersion.cmake

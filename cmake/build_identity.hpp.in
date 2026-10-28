@@ -1,0 +1,2 @@
+#pragma once
+namespace meguviz::rife { inline constexpr const char* build_fingerprint = "@MGR_BUILD_FP@"; }

@@ -1,0 +1,73 @@
+{
+  "result": "PASS",
+  "scope": "real v4.6 CPU FP32 full-graph reference; not Vulkan/guards/present/performance qualification",
+  "binary_sha256": "f51b6d3a1747e7b3c1e38153bf69573fbe51b2595fb2019709c87e2041f0a969",
+  "oracle_sha256": "268fe30d255730d958c97e8bdd09eada94ef92b2bed4d8932f9b6f01193a9078",
+  "model_graph_sha256": "724569596bcd1e7b9fa50455c604777ebed99746d2ef40aa86e31b5725f1053c",
+  "model_weights_sha256": "f334ed2260149ce0188a6dcf049844e8b0cdd912e01cbcfb63553157d2508958",
+  "checks": [
+    {
+      "case": "32x32-a0",
+      "result": "PASS",
+      "output_sha256": "f95829fe5b7f5d0a895c47073860d66ba6f684792455905bf15a6b4a6654917d",
+      "pixel_sha256": "d06225d95dec81a4650313aebf4626d4adc045157d79777c7126b00c713be82c",
+      "oracle_pixel_sha256": "d06225d95dec81a4650313aebf4626d4adc045157d79777c7126b00c713be82c"
+    },
+    {
+      "case": "32x32-a0.5",
+      "result": "PASS",
+      "output_sha256": "f79ddc8e3d68b1fa11127c166389a93d18845047f5f426884813e87fcb3c67d6",
+      "pixel_sha256": "393fbeb33d48a90452c295621a22c9c1f4eb873f371b8b3fc66a0c25a3c0d004",
+      "oracle_pixel_sha256": "393fbeb33d48a90452c295621a22c9c1f4eb873f371b8b3fc66a0c25a3c0d004"
+    },
+    {
+      "case": "32x32-a1",
+      "result": "PASS",
+      "output_sha256": "7fe2122b4a2f65f92fff8ca036483c542c26fe6cd273bcda841ded166afd2bc4",
+      "pixel_sha256": "d34f60646926dd753112a7882ef6370ceb46b2665c4ef886e3630806b287e0ba",
+      "oracle_pixel_sha256": "d34f60646926dd753112a7882ef6370ceb46b2665c4ef886e3630806b287e0ba"
+    },
+    {
+      "case": "65x35-a0",
+      "result": "PASS",
+      "output_sha256": "938c22f0ffe3ba241d8825aaab13e8c348e149d357873ce45f792c2dcb210e8b",
+      "pixel_sha256": "813ca6f17bd737433583f13f4761495228e316ad718873b394e7c95c09561c7f",
+      "oracle_pixel_sha256": "813ca6f17bd737433583f13f4761495228e316ad718873b394e7c95c09561c7f"
+    },
+    {
+      "case": "65x35-a0.5",
+      "result": "PASS",
+      "output_sha256": "b24cc0e974007a2cf7c50defea7cd071aa68aa983647956f5444f1dd2eaa9c45",
+      "pixel_sha256": "3f9e478ca4c757460b14f077456f21874883330758579065c1e56c42799df115",
+      "oracle_pixel_sha256": "3f9e478ca4c757460b14f077456f21874883330758579065c1e56c42799df115"
+    },
+    {
+      "case": "65x35-a1",
+      "result": "PASS",
+      "output_sha256": "a1af726c0f4d11698d70d912efa2f89fe2c2537c6467e66047a4b7c23aace80a",
+      "pixel_sha256": "ef30e5a172d5e6ad85a17b1827515dcbf26df7b38d69edf92017e83828b60b92",
+      "oracle_pixel_sha256": "ef30e5a172d5e6ad85a17b1827515dcbf26df7b38d69edf92017e83828b60b92"
+    },
+    {
+      "case": "alpha_nan",
+      "result": "PASS",
+      "scope": "failure produces no successful output"
+    },
+    {
+      "case": "alpha_range",
+      "result": "PASS",
+      "scope": "failure produces no successful output"
+    },
+    {
+      "case": "missing_model",
+      "result": "PASS",
+      "scope": "failure produces no successful output"
+    },
+    {
+      "case": "unsupported_precision",
+      "result": "PASS",
+      "scope": "failure produces no successful output"
+    }
+  ],
+  "commands": 18
+}
